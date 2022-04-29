@@ -1,0 +1,3 @@
+[submodule "protobuf/flipperzero-protobuf"]
+	path = protobuf/flipperzero-protobuf
+	url = git@github.com:flipperdevices/flipperzero-protobuf.git
