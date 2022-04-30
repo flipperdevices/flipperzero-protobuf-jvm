@@ -9,7 +9,7 @@ JVM library using git submodule from [repository](https://github.com/flipperdevi
 
 ### How to use:
 ```kotlin
-implementation("com.flipperdevices.protobuf")
+implementation("com.github.flipperdevices:flipperzero-protobuf-jvm")
 ```
 
 ### Architecture
