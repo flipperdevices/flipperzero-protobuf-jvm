@@ -11,8 +11,12 @@ plugins {
 }
 
 dependencies {
-    api("com.google.protobuf:protobuf-javalite:${Versions.protobuf}")
-    api("com.google.protobuf:protobuf-kotlin:${Versions.protobuf}")
+    api("com.google.protobuf:protobuf-javalite:${Versions.protobuf}"){
+        exclude("com.google.protobuf", "protobuf-java")
+    }
+    api("com.google.protobuf:protobuf-kotlin:${Versions.protobuf}"){
+        exclude("com.google.protobuf", "kotlin")
+    }
 }
 
 protobuf {
