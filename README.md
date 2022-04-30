@@ -1,6 +1,6 @@
 # Flipper JVM Protobuf
 
- [![Release](https://jitpack.io/v/Programistich/flipperzero-protobuf-jvm.svg)](https://jitpack.io/#Programistich/flipperzero-protobuf-jvm)
+ [![Release](https://jitpack.io/v/flipperdevices/flipperzero-protobuf-jvm.svg)](https://jitpack.io/#flipperdevices/flipperzero-protobuf-jvm)
 
 JVM library using git submodule from [repository](https://github.com/flipperdevices/flipperzero-protobuf) to simplify implementation
 

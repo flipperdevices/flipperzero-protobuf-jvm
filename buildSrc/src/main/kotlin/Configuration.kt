@@ -1,5 +1,7 @@
+import java.lang.System.getProperty
+
 object Configuration {
-    const val version = "0.6.1"
-    const val repository = "com.github.flipperdevices"
+    val version = getProperty("version", "debug")
+    val repository = getProperty("group", "com.github.flipperdevices")
     const val name = "protobuf-jvm"
 }
