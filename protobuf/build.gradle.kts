@@ -22,6 +22,9 @@ protobuf {
     generateProtoTasks {
         all().forEach {
             it.builtins {
+                getByName("java") {
+                    option("lite")
+                }
                 id("kotlin")
             }
         }
