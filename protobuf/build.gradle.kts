@@ -12,9 +12,7 @@ plugins {
 
 dependencies {
     implementation("com.google.protobuf:protobuf-javalite:${Versions.protobuf}")
-    implementation("com.google.protobuf:protobuf-kotlin:${Versions.protobuf}"){
-        exclude("com.google.protobuf", "protobuf-java")
-    }
+    implementation("com.google.protobuf:protobuf-kotlin:${Versions.protobuf}")
 }
 
 protobuf {
