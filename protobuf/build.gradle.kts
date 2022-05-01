@@ -11,7 +11,7 @@ plugins {
 }
 
 dependencies {
-    implementation("com.google.protobuf:protobuf-kotlin-lite:${Versions.protobuf}")
+    api("com.google.protobuf:protobuf-kotlin-lite:${Versions.protobuf}")
 }
 
 protobuf {
