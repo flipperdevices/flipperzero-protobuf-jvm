@@ -1,9 +1,20 @@
-rootProject.name = "flipperzero-protobuf-jvm"
-include("protobuf")
-include("protobuf-metric")
+pluginManagement {
+  repositories {
+    gradlePluginPortal()
+    mavenCentral()
+  }
+}
 
 dependencyResolutionManagement {
-    repositories {
-        mavenCentral()
-    }
+  repositories {
+    mavenCentral()
+  }
 }
+
+rootProject.name = "flipperzero-protobuf-jvm"
+
+includeBuild("build-logic")
+include(
+  "protobuf",
+  "protobuf-metric",
+)
